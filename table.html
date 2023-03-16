@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <script src="https://kit.fontawesome.com/3903282e00.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    table, th, td {
+        border:1px solid blue;
+    }
+    th {
+        text-align: center;
+    }
+
+</style>
+<body>
+<table style="width:100%;background-color:lightblue">
+    <caption style="color:darkblue;font-size: 25px">List Of Course-Wise Subject</caption>
+    <tr>
+        <th rowspan="2">sr.no.</th>
+        <th rowspan="2">Course</th>
+        <th rowspan="2">subject</th>
+        <th colspan="2">Marks</th>
+        <th colspan="2">Category</th>
+        <th rowspan="2" >practical/theory</th>
+    </tr>
+    <tr>
+        <th>Internal</th>
+        <th>External</th>
+        <th>Internal</th>
+        <th>External</th>
+    </tr>
+    <tr>
+        <th rowspan="4" >1</th>
+        <th rowspan="4">MBA</th>
+        <td >Management Accounting</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>theory</td>
+
+    </tr>
+    <tr>
+        <td >Information Technology</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>t and p</td>
+    </tr>
+    <tr>
+        <td >Basic of Marketing</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>theory</td>
+    </tr>
+    <tr>
+        <td>E-Commerce</td>
+        <td>50</td>
+        <td>-</td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>-</td>
+        <td>theory</td>
+    </tr>
+    <tr>
+        <th rowspan="6">2</th>
+        <th rowspan="6">MCM</th>
+        <td >Visual Basic</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>t and p</td>
+    </tr>
+    <tr>
+        <td >Internet Technology</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td></td>
+        <td>t and p</td>
+    </tr>
+    <tr>
+        <td >Network Technology</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>t and p</td>
+    </tr>
+    <tr>
+        <td >VB.net</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>t and p</td>
+    </tr>
+    <tr>
+        <td >linux</td>
+        <td>30</td>
+        <td>70</td>
+        <td> - </td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>theory</td>
+    </tr>
+    <tr>
+        <td >ISA</td>
+        <td>50</td>
+        <td>-</td>
+        <td> <i class="fa-solid fa-check"></i> </td>
+        <td>-</td>
+        <td>theory</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<style>
+    .card {
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(84, 117, 161);
+    }
+
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+</style>
+
+<body style="background-color:rgb(197, 212, 210);">
+<h2 style="text-align:center">Products</h2>
+<div class="card">
+    <img src="shoes.webp" style="width:100%">
+    <h1 >Shoes</h1>
+    <p><button onclick="document.location='shoes1.html'">click</button></p>
+</div>
+<div class="card">
+    <img src="watch.png" style="width:100%">
+    <h1 >watch</h1>
+    <p><button onclick="document.location='shoes2.html'">click</button></p>
+</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .card {
+
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        background-color:  rgb(84, 117, 161);
+    }
+
+    .price {
+        color: rgb(54, 41, 170);
+        font-size: 20px;
+    }
+
+    .card button {
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+</style>
+<body style="background-color:rgb(197, 212, 210);">
+<div class="card">
+    <img src="shoes.webp" style="width:100%">
+    <h1>shoes</h1>
+    <p class="price">Rs8999</p>
+    <p>KD15 EP Basketball Shoes</p>
+    <p><button onclick="document.location='last page.html'">Add to Cart</button></p>
+</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .card {
+
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        background-color:  rgb(84, 117, 161);
+    }
+
+    .price {
+        color: rgb(54, 41, 170);
+        font-size: 20px;
+    }
+
+    .card button {
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+</style>
+<body style="background-color:rgb(197, 212, 210);">
+<div class="card">
+    <img src="watch.png" style="width:100%">
+    <p class="price">Rs45999</p>
+    <p>APPLE Watch Series 8 GPS  (Midnight Strap, Regular)</p>
+    <p><button onclick="document.location='last page.html'">Add to Cart</button></p>
+</div>
+<button onclick="document.location='subham1.html'">previous</button>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <title>Tags</title>
+</head>
+<body>
+<p>Superscript text appears half a character above the normal line and is sometimes rendered in a smaller font.</p>
+<p>This text contains a<sup>2</sup>+b<sup>2</sup>=c<sub>2</sub> text.</p>
+<p>Subscript text appears half a character below the normal line and is sometimes rendered in a smaller font.</p>
+<p>This text contains N<sub>2</sub>O text.</p>
+<p> The strike tag defines a strike or line through Text.  This tag creates a cut line in the text</p>
+<p>My favorite animal is <del>cat</del> <ins>dog</ins>!</p>
+<p>super bold tag is used to define text with strong importance.</p>
+<strong> super bold text</strong>
+<p>ins tag is used to underline any word or group of words the tag</p>
+<ins> this is shubham</ins>
+
